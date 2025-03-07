@@ -1,0 +1,23 @@
+L’image représente un diagramme fonctionnel de l’IPMI (Intelligent Platform Management Interface), qui est une interface permettant la gestion hors bande des serveurs et autres équipements informatiques, indépendamment du système d’exploitation.
+
+Explication des éléments du diagramme :
+	1.	BMC (Baseboard Management Controller) :
+	•	C’est le cœur du système IPMI, un contrôleur indépendant chargé de surveiller et gérer l’état matériel du serveur (température, alimentation, état des composants, etc.).
+	•	Il interagit avec différents bus de communication pour récupérer des informations et envoyer des commandes.
+	2.	NIC (Network Interface Controller) :
+	•	Il est relié au BMC via un canal SideBand, ce qui permet d’accéder au BMC à distance via le réseau.
+	3.	Southbridge, Super IO :
+	•	Ces composants gèrent des fonctions d’entrées/sorties et peuvent être connectés au BMC via le LPC Bus (Low Pin Count Bus) ou SMBus (System Management Bus).
+	4.	IPMI & OEM Signals :
+	•	Ces signaux permettent d’envoyer des commandes spécifiques à des équipements externes comme des LEDs, interrupteurs et composants matériels.
+	5.	I2C Bus :
+	•	Utilisé pour la communication avec des capteurs matériels (température, voltage, alimentation, etc.).
+	6.	IPMB (Intelligent Platform Management Bus) :
+	•	Il connecte d’autres composants matériels importants comme HW Monitor, alimentation (Power Supply), mémoire DIMM, chipset, slots PCI, etc.
+	7.	Super IO & Serial Port Connector :
+	•	Le Super IO permet de gérer d’autres entrées/sorties classiques (ports série, clavier, souris, etc.).
+	•	Un port série peut être utilisé pour administrer directement le BMC via un terminal.
+
+En résumé :
+
+Ce diagramme montre comment le BMC communique avec les différents composants d’un serveur pour assurer une gestion à distance et indépendante du système d’exploitation. L’IPMI est particulièrement utilisé dans les centres de données et les serveurs d’entreprise pour la surveillance et la maintenance à distance.
