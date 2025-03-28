@@ -1,0 +1,22 @@
+<mxfile host="65bd71144e">
+    <diagram id="hxNibztF1nr0CHYaaWY5" name="Page-1">
+        <mxGraphModel dx="988" dy="618" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="8" value="" style="triangle;whiteSpace=wrap;html=1;rotation=-90;strokeWidth=5;strokeColor=#646EFF;" vertex="1" parent="1">
+                    <mxGeometry x="329" y="146" width="244" height="327" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="¨Prevention" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Globe_Warning.svg;labelPosition=center;verticalLabelPosition=top;verticalAlign=bottom;fontColor=light-dark(#fdbd0d, #593500);" vertex="1" parent="1">
+                    <mxGeometry x="420.45" y="160" width="61.09" height="72" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Rapport et Tableau de bord" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Dashboard2.svg;fontColor=light-dark(#10e5a5, #ededed);" vertex="1" parent="1">
+                    <mxGeometry x="583" y="392" width="82.17" height="58" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Automatisation" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;fontColor=light-dark(#edda07, #6592cd);labelBackgroundColor=none;fontSize=12;spacingTop=3;image=img/lib/ibm/applications/automation_tools.svg;" vertex="1" parent="1">
+                    <mxGeometry x="249" y="386" width="70" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
